@@ -1,0 +1,17 @@
+View>Docklets: Εμφανίζει τα παράθυρα που έχουν κλείσει
+Cntrl+Shift+P: Clear
+Cntrl+Shift+Enter: Εκτελεί. (μορφή εντολής: receiver.message) π.χ. 3.cubed
+
+Global vriable. Ορισμός μεταβλητών. x = 3.cubed. 
+
+Local Variable: 
+(
+var number;
+number=3.cubed
+)
+και Cntrl+Enter
+
+Με το σύμβολο ~ πριν το number, το local variable γίνεται global:
+~number=3.cubed
+
+με τις / βάζω σχόλια μιας γραμμής. Τα /* και */ ανοίγουν και κλείνουν πολλ'ες σειρές σχολίων
