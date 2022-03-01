@@ -9,3 +9,12 @@ Server.default.boot
 (degree: 3) ++> \test;
 (dur: 3) ++> \test;
 
+SynthDef("metro", {
+	Out.ar(0, WhiteNoise.ar(0.1).perc.dup)
+}).add;
+
+//
+
+Synth("metro");
+
+{WhiteNoise.ar(0.1).perc.dup} +> \test
