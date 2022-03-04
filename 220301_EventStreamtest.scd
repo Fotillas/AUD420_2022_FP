@@ -2,7 +2,7 @@ Platform.userExtensionDir
 Project
 Server.default.boot
 () +> \test;
-() ++ \test;
+() ++> \test;
 ~test
 ~test.isRunning;
 ~test.isPlaying;
